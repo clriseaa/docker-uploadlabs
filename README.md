@@ -29,7 +29,7 @@ $ docker build -t upload-labs .
 创建子级镜像
 
 ```txt
-$ cd docker-uploadlabs/Pass/Pass-01/docker
+$ cd docker-uploadlabs/Pass/Pass-01
 $ docker build -t upload-labs/pass01 .
 ```
 
