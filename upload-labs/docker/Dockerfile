@@ -25,8 +25,8 @@ RUN apt-get update && \
 RUN cd /tmp/ &&\
     git clone https://github.com/clriseaa/docker-uploadlabs.git &&\
     rm -rf /var/www/html/* &&\
-    rm -rf /tmp/Pass/* &&\
-    mv /tmp/upload-labs/* /var/www/html/ &&\
+    mv /tmp/docker-uploadlabs/* /var/www/html/ &&\
+    rm -rf /var/www/html/Pass/* &&\
     chown www-data:www-data -R /var/www/html/ && \
     rm -rf /tmp/*
 
