@@ -10,7 +10,7 @@ COPY . /tmp/
 RUN cd /tmp/ &&\
     git clone https://github.com/clriseaa/docker-uploadlabs.git &&\
     rm -rf /var/www/html/Pass/* &&\
-    mkdir /var/www/html/upload &&\
+    mkdir /var/www/html/Pass/upload &&\
     mv /tmp/docker-uploadlabs/Pass/Pass-01/* /var/www/html/Pass/ &&\
     chown www-data:www-data -R /var/www/html/ && \
     rm -rf /tmp/*
