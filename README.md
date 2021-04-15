@@ -42,7 +42,7 @@ $  docker run -d -p 81:80 upload-labs/pass01:latest
 #### 2.3 访问upload题目页面
 
 ```txt
-http://you-ip/Pass/Pass-01
+http://you-ip/Pass
 ```
 
 
